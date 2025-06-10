@@ -192,7 +192,8 @@ h6 {
   body.works_on_smartphone {
   	display: block;
   }
-  body.works_on_smartphone main {
+  
+  body.works_on_smartphone {
   	display: block;
   }
   header .right {
