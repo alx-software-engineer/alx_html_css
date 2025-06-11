@@ -1,0 +1,1 @@
+This a hands-on-practice for a responsive landing page.
