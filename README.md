@@ -12,8 +12,8 @@ Welcome to the repository for my personal homepage project. This is a clean, mod
 4. Key Sections:
 Hero Section with a clear call-to-action.  
 
-About Me section to introduce myself.
-Projects/Portfolio showcase.
+An about Me section to introduce myself.    
+
 Contact form for easy communication.
 
 5. Optimized for Performance: Fast loading times for a better user experience.
