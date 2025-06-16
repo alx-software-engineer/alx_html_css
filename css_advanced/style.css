@@ -1,7 +1,59 @@
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #C271FF;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(216, 220, 223);
+  margin: 0;
+  padding: 0;
+  max-width: 2000px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.hero_container {
+  background-image: url('/Asset/images/Object.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.8rem;
+  color: var(--primary-color, "white");
+}
+
+header, nav ul {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+header a img {
+  height: 24px;
+}
+
+nav ul {
+  gap: 20px;
 }
