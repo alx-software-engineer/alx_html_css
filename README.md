@@ -19,7 +19,6 @@ Contact form for easy communication.
 5. Optimized for Performance: Fast loading times for a better user experience.
 
 🛠️ **Built With**
-This project was built using modern front-end technologies:
 
 1. HTML5: For the structure and content.
 2. CSS3: For styling, layout (using Flexbox/Grid), and animations.
