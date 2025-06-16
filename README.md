@@ -1,7 +1,7 @@
-My Awesome Homepage
+**My Awesome Homepage**
 Welcome to the repository for my personal homepage project. This is a clean, modern, and fully responsive landing page designed to showcase my skills and projects in a visually appealing way.
 
-FEATURES
+**FEATURES**
 
 1. Modern UI Design: A clean and intuitive user interface.
 
@@ -10,20 +10,21 @@ FEATURES
 3. Interactive Elements: Smooth animations and hover effects powered by CSS and JavaScript.
 
 4. Key Sections:
-Hero Section with a clear call-to-action.
+Hero Section with a clear call-to-action.  
+
 About Me section to introduce myself.
 Projects/Portfolio showcase.
 Contact form for easy communication.
 
 5. Optimized for Performance: Fast loading times for a better user experience.
 
-🛠️ Built With
+🛠️ **Built With**
 This project was built using modern front-end technologies:
 
 1. HTML5: For the structure and content.
 2. CSS3: For styling, layout (using Flexbox/Grid), and animations.
 
-USAGE
+**USAGE**
 
 Feel free to use this code as a template for your own personal homepage. You can easily customize it:
 
@@ -33,7 +34,7 @@ Feel free to use this code as a template for your own personal homepage. You can
 
 3. Images: Replace the images in the assets/images/ folder with your own.
 
-CONTACT
+**CONTACT**
 Abdulrazak Idris Yahaya
 
 Project Link:
