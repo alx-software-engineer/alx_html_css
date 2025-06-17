@@ -126,7 +126,10 @@ nav ul,
 .qoute_container,
 .qoute_section,
 .video_list_section,
-.video_list_container {
+.video_list_container,
+.video_author_name,
+.video_card,
+.video_ratings {
   display: flex;
 }
 
@@ -145,7 +148,10 @@ header a img {
   height: 24px;
 }
 
-nav ul, .hero-text, .qoute_container, .video_list_section, .video_list_container {
+nav ul, .hero-text,
+.qoute_container, 
+.video_list_section, 
+.video_list_container {
   gap: 20px;
 }
 
@@ -166,7 +172,6 @@ h1 {
 }
 
 .qoute_container, .video_list_container {
-  background-color: dodgerblue;
   justify-content: center;
   align-items: center;
   width: 80%;
@@ -177,7 +182,52 @@ h1 {
   margin: 0.5rem 0px;
 }
 
-.video_list_section {
-  background-color: gold;
+.video_list_section, .video_card {
   flex-direction: column;
+}
+
+.video_author_name, .video_ratings {
+  align-items: center;
+  color: var(--secondary-color);
+}
+
+.video_author_name > img {
+  width: 30px;
+  height: 30px;
+}
+
+.video_author_name {
+  gap: 10px;
+}
+
+.video_card * {
+  margin: 0.2rem 0px;
+}
+
+.Video_image_container {
+  position: relative;
+}
+
+.Video_image_container > :first-child {
+    display: block;
+    width: 100%;
+}
+
+.video_ratings {
+  justify-content: space-between;
+}
+
+.video_ratings {
+  flex-wrap: wrap;
+}
+
+.play {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
