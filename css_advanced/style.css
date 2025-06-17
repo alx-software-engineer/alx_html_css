@@ -8,13 +8,11 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   max-width: 2000px;
   margin: auto;
 }
 
-ul, nav {
+ul, nav, body {
   margin: 0;
   padding: 0;
 }
@@ -30,29 +28,43 @@ a {
   font-weight: bold;
 }
 
+.author_container > p {
+  font-size: 18px;
+  margin: 1.5rem 0px;
+}
+
 .author {
   flex-direction: column;
   align-items: center;
 }
 
+.author * {
+  margin: 2px 0px;
+
+}
+
 .authors {
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 12px;
+  width: 80%;
 }
 
 .authors div img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .btn {
   border: 0;
-  border-radius: 15px;
-  padding: 0.4rem 0.9rem;
-  font-size: 12px;
-  background-color: var(--secondary-color);
+  border-radius: 13px;
+  padding: 0.4rem 1.4rem;
+  font-size: 10px;
   color: var(--primary-color);
+}
+
+.register-btn {
+  background-color: var(--secondary-color);
 }
 
 .hero_container {
@@ -62,20 +74,28 @@ a {
   background-repeat: no-repeat;
   padding: 0.6rem;
   color: var(--primary-color, "white");
+  min-height: 85vh;
+}
+
+.hero_section {
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero_title_container, .author_container {
   flex-direction: column;
   align-items: center;
-
+  margin-bottom: 4rem;
 }
 
 .hero-text p {
-  font-weight: bolder;;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
 header, 
-nav ul, 
+nav ul,
+.hero_section, 
 .hero_title_container, 
 .hero-text, 
 .author_container,
@@ -85,7 +105,7 @@ nav ul,
 }
 
 header {
- justify-content: space-between;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
 }
@@ -101,4 +121,9 @@ nav ul, .hero-text {
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
+}
+
+.learn {
+  color: var(--secondary-color);
+  font-weight: bolder;
 }
