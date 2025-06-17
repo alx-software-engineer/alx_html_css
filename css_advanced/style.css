@@ -129,7 +129,10 @@ nav ul,
 .video_list_container,
 .video_author_name,
 .video_card,
-.video_ratings {
+.video_ratings,
+.membership_section,
+.membership_container,
+.membership_card {
   display: flex;
 }
 
@@ -151,7 +154,8 @@ header a img {
 nav ul, .hero-text,
 .qoute_container, 
 .video_list_section, 
-.video_list_container {
+.video_list_container,
+.membership_container {
   gap: 20px;
 }
 
@@ -171,7 +175,7 @@ h1 {
   padding: 3rem 0px;
 }
 
-.qoute_container, .video_list_container {
+.qoute_container, .video_list_container, .membership_container {
   justify-content: center;
   align-items: center;
   width: 80%;
@@ -182,7 +186,7 @@ h1 {
   margin: 0.5rem 0px;
 }
 
-.video_list_section, .video_card {
+.video_list_section, .video_card, .membership_section, .membership_card {
   flex-direction: column;
 }
 
@@ -200,8 +204,8 @@ h1 {
   gap: 10px;
 }
 
-.video_card * {
-  margin: 0.2rem 0px;
+.video_card *, .membership_card * {
+  margin: 0.3rem 0px;
 }
 
 .Video_image_container {
@@ -231,3 +235,26 @@ h1 {
   bottom: 0;
   margin: auto;
 }
+
+.membership_section {
+  background-color: #071629;
+  color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0px;
+  margin: auto;
+}
+
+.membership_container {
+  margin: 1.5rem 0px;
+}
+
+.membership_card {
+ align-items: center;
+}
+
+.membership_card img {
+  width: 40px;
+  height: 40px;
+}
+
