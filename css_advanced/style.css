@@ -132,7 +132,9 @@ nav ul,
 .video_ratings,
 .membership_section,
 .membership_container,
-.membership_card {
+.membership_card,
+.frequently_asked_container,
+.frequently_asked_section {
   display: flex;
 }
 
@@ -155,7 +157,8 @@ nav ul, .hero-text,
 .qoute_container, 
 .video_list_section, 
 .video_list_container,
-.membership_container {
+.membership_container,
+.frequently_asked_container {
   gap: 20px;
 }
 
@@ -186,7 +189,7 @@ h1 {
   margin: 0.5rem 0px;
 }
 
-.video_list_section, .video_card, .membership_section, .membership_card {
+.video_list_section, .video_card, .membership_section, .membership_card, .frequently_asked_section {
   flex-direction: column;
 }
 
@@ -256,5 +259,20 @@ h1 {
 .membership_card img {
   width: 40px;
   height: 40px;
+}
+
+.frequently_asked_section {
+  align-items: center;
+}
+
+.frequently_asked_section .faq {
+  margin: 1rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.frequently_asked_container {
+  width: 70%;
+  margin: auto;
 }
 
