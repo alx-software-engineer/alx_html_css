@@ -134,7 +134,8 @@ nav ul,
 .membership_container,
 .membership_card,
 .frequently_asked_container,
-.frequently_asked_section {
+.frequently_asked_section,
+.footer_container {
   display: flex;
 }
 
@@ -276,3 +277,26 @@ h1 {
   margin: auto;
 }
 
+footer {
+  padding: 2rem;
+  background-color: #071629;
+  color: var(--primary-color);
+}
+
+.footer_container {
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer .links img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
