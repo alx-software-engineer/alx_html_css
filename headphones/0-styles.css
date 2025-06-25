@@ -23,8 +23,12 @@
   --secondary-color: #FF6565;
 }
 
-* *::before *::after {
+*, *::after, *::before {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
 }
 
 body {
@@ -36,7 +40,7 @@ body {
 }
 
 main {
-  background-color: aqua;
+  background-color: white;
 }
 
 footer {
@@ -54,4 +58,13 @@ footer {
 .hamburger {
   width: 24px;
   height: 24px;
+}
+
+.whatWedo {
+  color: #071629;
+}
+
+.statistics {
+  background-image: url("/headphones/Asset/images/headphones_hero_2.jpg");
+  color: white;
 }
