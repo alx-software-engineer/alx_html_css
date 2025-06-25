@@ -19,13 +19,39 @@
 }
 
 :root {
-  --primary-color: #FFFFFF;
-  --secondary-color: #C271FF;
+  --primary-color: #071629;
+  --secondary-color: #FF6565;
+}
+
+* *::before *::after {
+  box-sizing: border-box;
 }
 
 body {
-  max-width: 2000px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 0px auto;
   font-family: source_sans_proregular, sans-serif;
   font-size: 14px;
+  color: #FFFFFF;
+}
+
+main {
+  background-color: aqua;
+}
+
+footer {
+  background-color: #FF6565;
+}
+
+.hero {
+  background-image: url("/headphones/Asset/images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.hamburger {
+  width: 24px;
+  height: 24px;
 }
