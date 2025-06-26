@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #071629;
+  --secondary-color: #FF6565;
+  --text-font-base: 14px;
+  --text-font-large: 24px;
+  --text-color-dark: #071629;
+  --text-color-white: #ffffff;
+  --large-spacing: 1rem;
+  --small-spacing: 0.5rem;
+  --links-hover_active: #ff6565;
+  --links-active: 0.9;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 70%;
+    margin: 2rem auto;
+}
+
+.form-container input {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.9px #a7e5c2;
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+
