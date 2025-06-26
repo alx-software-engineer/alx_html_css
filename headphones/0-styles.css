@@ -51,6 +51,19 @@ ul, li, a {
   list-style-type: none;
 }
 
+.btn {
+  border: none;
+  border-radius: 24px;
+  font-size: x-small;
+  padding: 0.6rem 1rem;
+}
+
+.call-to-action {
+  background-color: var(--secondary-color);
+  color: var(--text-color-white);
+  margin: 1rem auto;
+}
+
 a:hover, a:active {
   color: var(--links-hover_active);
 }
@@ -58,6 +71,10 @@ a:hover, a:active {
 .nav-link {
   color: var(--text-color-white);
   font-weight: 600;
+}
+
+nav li {
+  margin-bottom: var(--large-spacing);
 }
 
 .hero {
@@ -68,19 +85,28 @@ a:hover, a:active {
   padding: var(--large-spacing);
 }
 
-header, .header-nav {
+header, .header-nav, .call-to-action {
   display: flex;
 }
 
 .header-nav {
   flex-direction: column;
   align-items: center;
+}
+
+.header-nav {
   margin: auto;
+}
+
+.header-details * {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .headphones {
   width: 170px;
   height: 35px;
+  margin-bottom: 5px;
 }
 
 .hamburger {
@@ -88,3 +114,4 @@ header, .header-nav {
   height: 24px;
   margin-top: 8px;
 }
+
