@@ -61,7 +61,7 @@ ul, li, a {
 .call-to-action {
   background-color: var(--secondary-color);
   color: var(--text-color-white);
-  margin: 1rem auto;
+  margin: 2.5rem auto;
 }
 
 a:hover, a:active {
@@ -83,6 +83,7 @@ nav li {
   background-position: center center;
   background-repeat: no-repeat;
   padding: var(--large-spacing);
+  height: 75vh;
 }
 
 header, .header-nav, .call-to-action {
