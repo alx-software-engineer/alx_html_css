@@ -17,9 +17,7 @@
 }
 
 .what-we-offer {
+    padding: var(--large-spacing);
     margin-bottom: 1.5rem;
 }
 
-main {
-    padding: var(--large-spacing);
-}

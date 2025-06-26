@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #071629;
+  --secondary-color: #FF6565;
+  --text-font-base: 14px;
+  --text-font-large: 24px;
+  --text-color-dark: #071629;
+  --text-color-white: #ffffff;
+  --large-spacing: 1rem;
+  --small-spacing: 0.5rem;
+  --links-hover_active: #ff6565;
+  --links-active: 0.9;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--large-spacing);
+    background-image: url("/headphones/Asset/images/headphones_hero_2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-color-white);
+    padding: 3rem var(--large-spacing);
+}
+
+.stat-Img {
+    width: 160px;
+    height: 160px;
+}
+
+.stat-container {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.stat-num {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 3;
+}
+
+.stat-num > p {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
