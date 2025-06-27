@@ -58,11 +58,23 @@
         align-items: center;
     }
 
+    .offer_container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .offer_data_container {
+        width: min-content;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
     .hero {
         padding: 2rem;
     }
 
-    .header-details  p, .what-We-do-offer p {
+    .header-details  p, .what-We-do-offer p, .statistics p, .form-container {
         width: 45%;
         margin: 0 auto;
         text-align: center;
