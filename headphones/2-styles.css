@@ -28,6 +28,8 @@
 .stat-Img {
     width: 160px;
     height: 160px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background-color: var(--secondary-color);
 }
 
 .stat-container {
