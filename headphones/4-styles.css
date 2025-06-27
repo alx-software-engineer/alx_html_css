@@ -29,6 +29,10 @@ footer {
     gap: 15px;
 }
 
+.stat-container {
+    transition: transform 0.5 ease;
+}
+
 .media_icons {
     height: 24px;
     width: 24px;
@@ -40,7 +44,7 @@ footer {
      transition: transform 0.5 ease;
 }
 
-.what-we-offer:hover {
+.what-we-offer:hover, .stat-container:hover {
     transform: scale(1.1);
 }
 
