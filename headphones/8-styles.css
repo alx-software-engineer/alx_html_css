@@ -43,6 +43,15 @@
     .stat-data {
         margin: 0 auto;
     }
+
+     footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+     footer p {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -103,5 +112,11 @@
     ul li {
         margin: 0;
     }
+    
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
+    
 }
