@@ -15,7 +15,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 375px) {
     .header-nav ul {
         display: none;
     }
@@ -71,13 +71,37 @@
     }
 
     .hero {
-        padding: 2rem;
+        padding: 1rem;
+    }
+
+    header {
+        justify-content: space-between;
     }
 
     .header-details  p, .what-We-do-offer p, .statistics p, .form-container {
         width: 45%;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .header-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 2rem;
+        width: 60%;
+    }
+
+    .header-nav ul {
+        display: flex;
+        padding: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    ul li {
+        margin: 0;
     }
 
 }
