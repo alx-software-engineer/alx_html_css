@@ -20,3 +20,52 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+    .offer_container, .stat_parent_container {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .offer_data_container, .stat-data {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .statistics {
+        padding: 0;
+    }
+
+    .stat-data {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .stat_parent_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero {
+        padding: 2rem;
+    }
+
+    .header-details  p, .what-We-do-offer p {
+        width: 45%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
